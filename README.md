@@ -65,3 +65,27 @@
 <p align="left">1. Decision Tree<br>2. Random Forest<br>3. K-Nearest Neighbors (KNN)</p>
 
 ###
+
+<h2 align="left">Project Workflow</h2>
+
+###
+
+<p align="left">1. Data collection<br>Dataset “Telcom Customer Churn.csv” is collected from Kaggle that uploaded by BlastChar in 2018<br><br>2. EDA<br>This phase is used to better visualize and understand the current data and to determine which data preprocessing and data model should be applied in this project.<br><br>3. Data Preprocessing<br>Data preprocessing includes data cleaning, transformation, and normalization to handle missing and imbalanced data, making the data suitable for analysis. <br><br>4. Split Train Data and Test Data<br>We will divide the dataset into two parts. One part is the training set, and the other part is the testing set. The training set is used to build and train the machine learning model. The test set is used to evaluate how well the model performs on the data.<br><br>5. ML Model<br>Now that we have the data, we must train machine learning algorithms with KNN, Decision Trees, and Random Forests to identify which customers are likely to leave the Telco Customer service.<br><br>6. Model Evaluation<br>After we train the model, we need to see how well it works. We will use evaluation metrics such as accuracy, precision, recall, and F1-score to measure this. These numbers tell us if the model is good at predicting Telco Customer Churn. <br><br>7. Predict<br>Finally, we use the model we trained and tested to make predictions about customers, including those we know little about. This helps the Telco Customer business identify customers who're likely to leave and take steps to keep them as Telco Customers.</p>
+
+###
+
+<h2 align="left">Result</h2>
+
+###
+
+<p align="left">1. Customers with certain contract types and payment methods are more likely to churn<br><br>2. Class imbalance significantly affects model performance<br><br>3. Ensemble models (Random Forest) perform better for this dataset<br>(Cross Validation accuracy: 84%, Model evaluation accuracy: 77.86%)</p>
+
+###
+
+<h2 align="left">Future Improvement</h2>
+
+###
+
+<p align="left">1. Include other classification models (Naive Bayes, XGBoost)<br><br>2. Develop a web app or desktop app(GUI) for users to predict the result themselves.</p>
+
+###
